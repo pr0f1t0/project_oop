@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Driver\DriverWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Driver\Main.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Driver\mojedane.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Driver\PasswordChange.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Driver\rozklad.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Driver\trasy.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Driver\zmiany.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="LoginWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Driver\zgloszenie.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Driver\DriverWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Driver\Main.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Driver\mojedane.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Driver\PasswordChange.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Driver\rozklad.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Driver\trasy.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Driver\zmiany.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="LoginWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Driver\zgloszenie.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

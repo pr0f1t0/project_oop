@@ -1,0 +1,59 @@
+﻿<UserControl x:Class="Transport.Driver.Main"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Transport.Driver"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="900">
+    <Grid Background="#1e1e1e">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+
+
+
+        <Grid Background="#393E46" Grid.ColumnSpan="8" Grid.Row="0" MaxHeight="80" VerticalAlignment="Top">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Width="Auto" Grid.Column="0" Height="46" Foreground="White" Name="Powitanie"  HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="25" />
+            <TextBlock Width="Auto" Grid.Column="1" Height="46" Foreground="White" Name="Czas" TextAlignment="Center" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="25"/>
+
+        </Grid>
+
+        <Button Content="Zgłoś wypadek" Width="115" Height="24" Background="#00ADB5" BorderThickness="0" Click="zglos_Click" HorizontalAlignment="Center" Grid.Row="1" Grid.Column="1" />
+        <Button Content="Pokaż zmiany" Width="115" Height="24" Background="#00ADB5" BorderThickness="0"  Click="zmianyB_Click" HorizontalAlignment="Center" Grid.Row="1" Grid.Column="3"/>
+        <Button Content="Trasy" Width="115" Height="24" Background="#00ADB5" BorderThickness="0" x:Name="trasyB" HorizontalAlignment="Center" Grid.Row="1"  Grid.Column="5" Click="trasyB_Click"/>
+
+
+        <Button Content="Rozkład jazdy" HorizontalAlignment="Center" VerticalAlignment="Center" Width="115" Height="25" Background="#00ADB5" BorderThickness="0" Grid.Row="2" Grid.Column="2" Click="rozkladButton_Click" />
+        <Button Content="Moje dane" HorizontalAlignment="Center" VerticalAlignment="Center" Width="115" Height="25" Background="#00ADB5" BorderThickness="0" Grid.Row="2" Grid.Column="4" Name="MojeD" Click="MojeD_Click" />
+        <Button HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="40" Height="50"  Background="Transparent"  BorderThickness="0"  Grid.Row="3" Grid.Column="7" Click="logout">
+            <Image Source="D:\project_oop\Transport\images\logout_button.png"/>
+        </Button>
+      
+    </Grid>
+
+
+
+
+
+</UserControl>
