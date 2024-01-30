@@ -85,7 +85,7 @@ namespace Transport.Driver {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Transport;V1.0.0.0;component/driver/rozklad.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Transport;component/driver/rozklad.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Driver\rozklad.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

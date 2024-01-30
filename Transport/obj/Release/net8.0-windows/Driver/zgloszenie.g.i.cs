@@ -85,7 +85,7 @@ namespace Transport {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Transport;V1.0.0.0;component/driver/zgloszenie.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Transport;component/driver/zgloszenie.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Driver\zgloszenie.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

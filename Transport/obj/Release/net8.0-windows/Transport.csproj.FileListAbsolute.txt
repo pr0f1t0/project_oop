@@ -47,3 +47,4 @@ D:\project_oop\Transport\obj\Release\net8.0-windows\Driver\mojedane.g.cs
 D:\project_oop\Transport\obj\Release\net8.0-windows\Driver\mojedane.baml
 D:\project_oop\Transport\obj\Release\net8.0-windows\Driver\PasswordChange.g.cs
 D:\project_oop\Transport\obj\Release\net8.0-windows\Driver\PasswordChange.baml
+D:\project_oop\Transport\obj\Release\net8.0-windows\Transport.sourcelink.json

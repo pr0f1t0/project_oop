@@ -124,7 +124,7 @@ namespace Transport
             Validator validator = new Validator();
             if (vehicleNum != null && accType != null)
             {
-                if ((validator.BusNumCheck(vehicleNum) || validator.TramNumCheck(vehicleNum)) && validator.NumbersCheck(accType) )
+                if ((validator.BusNumCheck(vehicleNum) || validator.TramNumCheck(vehicleNum)) && validator.LettersCheck(accType) )
                 {
                     return true;
 
